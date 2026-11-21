@@ -6,7 +6,6 @@ public:
 
         for (int i = 0; i <= path.size(); i++) {
             if (i == path.size() || path[i] == '/') {
-
                 if (word == "" || word == ".") {
                 }
                 else if (word == "..") {
